@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+body {
+    background-color: gray;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.child {
+    background-color: rgba(240, 248, 255, 0.623);
+    max-width: 240px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 15px 0;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border-color: rgba(200, 255, 0, 0.377); */
+    border: none;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+input {
+    text-align: end;
+    background-color: transparent;
+    width: 70%;
+    height: 40px;
+    font-size: 25px;
+    color: white;
+    padding-right: 10px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px 1px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
+
+.dark {
+    border-radius: 10px;
+    /* width: 120px; */
+    padding: 10px;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 10px;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.white {
+    background-color: white;
+}
